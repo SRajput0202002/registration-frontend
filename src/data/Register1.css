@@ -1,0 +1,86 @@
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mainDiv {
+  border: 2px solid black;
+  padding: 10px;
+  width: 250px;
+  height:300px;
+  background-color: powderblue;
+  border-radius: 15px;
+}
+.subDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 40px;
+}
+
+
+.btnStyle {
+  background-color: orange;
+  height: 35px;
+  width: 100px;
+  border-radius: 20px;
+
+}
+table {
+  border-collapse: collapse;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+th,
+td {
+  border: 2px solid black;
+  padding: 2px;
+  width: 170px;
+  text-align: center;
+  background-color: blanchedalmond;
+  justify-content: center;
+}
+.ListHeading {
+  text-align: center;
+}
+.deleteButton {
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+}
+.saveButton {
+  background-color:rgb(142, 204, 142);
+  width: 70px;
+
+  height: 40px;
+  border-radius: 20px;
+}
+.editButton {
+  background-color: greenyellow;
+  width: 100px;
+
+  height: 40px;
+  border-radius: 20px;
+}
+.cancelButton{
+  background-color:rgb(128, 102, 151);
+  width: 70px;
+
+  height: 40px;
+  border-radius: 20px;
+}
+.input{
+  width: 160px;
+  height:25px;
+  background-color:azure;
+  border-radius: 10px;
+  
+}
